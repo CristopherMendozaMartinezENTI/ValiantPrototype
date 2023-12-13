@@ -74,11 +74,6 @@
 		{
 			"Name": "FMODStudio",
 			"Enabled": true
-		},
-		{
-			"Name": "QuickActions",
-			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/01e9d950f52648ee96e9b01711df283e"
 		}
 	]
 }
