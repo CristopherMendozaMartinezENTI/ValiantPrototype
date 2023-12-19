@@ -242,6 +242,7 @@ public:
 	 * @param Tag Tag to check if it matches Identity Tags of registered Flow Components
 	 * @param bExactMatch If true, the tag has to be exactly present, if false then TagContainer will include it's parent tags while matching. Be careful, using latter option may be very expensive, as the search cost is proportional to the number of registered Gameplay Tags!
 	 */
+	
 	template <class T>
 	TSet<TWeakObjectPtr<T>> GetComponents(const FGameplayTag& Tag, const bool bExactMatch = true) const
 	{
