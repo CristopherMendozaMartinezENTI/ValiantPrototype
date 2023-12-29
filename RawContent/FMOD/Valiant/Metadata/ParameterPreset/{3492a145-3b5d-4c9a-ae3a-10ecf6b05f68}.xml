@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{3492a145-3b5d-4c9a-ae3a-10ecf6b05f68}">
+		<property name="name">
+			<value>StaminaValue</value>
+		</property>
+		<relationship name="folder">
+			<destination>{cb53874c-12ac-47c6-9f32-8e8ad9ac5b9b}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{a69eea41-7ec9-4c9b-926b-8058f3f748ac}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{a69eea41-7ec9-4c9b-926b-8058f3f748ac}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
