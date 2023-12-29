@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{4b789ef9-639e-44f1-b28f-b93b4a5a98a2}">
+		<property name="assetPath">
+			<value>Caw_01.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.3832426303854875</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{28d7ca8b-3f0b-4bb2-989b-ca470065c65b}</destination>
+		</relationship>
+	</object>
+</objects>
