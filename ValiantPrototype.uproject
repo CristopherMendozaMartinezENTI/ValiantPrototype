@@ -79,6 +79,10 @@
 		{
 			"Name": "PMDialogue",
 			"Enabled": true
+		},
+		{
+			"Name": "CascadeToNiagaraConverter",
+			"Enabled": true
 		}
 	]
 }
