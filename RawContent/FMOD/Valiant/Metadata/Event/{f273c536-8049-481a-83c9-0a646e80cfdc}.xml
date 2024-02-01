@@ -36,6 +36,7 @@
 		</relationship>
 		<relationship name="parameters">
 			<destination>{022f5597-90e4-4e10-a2a5-215f358f5bcc}</destination>
+			<destination>{95b6abc8-1ee5-4108-9319-3b2a4196b8a2}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{4c2469be-b544-401a-a114-581b8885addf}</destination>
@@ -115,6 +116,11 @@
 	<object class="ParameterProxy" id="{022f5597-90e4-4e10-a2a5-215f358f5bcc}">
 		<relationship name="preset">
 			<destination>{d9ab3175-4458-48c5-b6cd-f0df419e02ba}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterProxy" id="{95b6abc8-1ee5-4108-9319-3b2a4196b8a2}">
+		<relationship name="preset">
+			<destination>{e1776a17-5dd3-45a6-b2a7-ea723adedd65}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{20128b68-19d2-43f2-be59-b09e1410eb7d}">
@@ -345,6 +351,7 @@
 		</property>
 		<relationship name="automationCurves">
 			<destination>{0243e3d2-e670-450d-a529-2026ca65c927}</destination>
+			<destination>{344cb610-c09d-4c1f-8198-8e4bb27581ce}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{bc4289ed-bc6d-46ce-9ddc-6a48e09ea33f}">
@@ -514,6 +521,15 @@
 			<destination>{5e891b5e-cac5-4010-a713-0fd0e3861848}</destination>
 		</relationship>
 	</object>
+	<object class="AutomationCurve" id="{344cb610-c09d-4c1f-8198-8e4bb27581ce}">
+		<relationship name="parameter">
+			<destination>{e1776a17-5dd3-45a6-b2a7-ea723adedd65}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{5bff0c99-ade1-4916-b4c6-7552b938d1b7}</destination>
+			<destination>{76d2c603-c5be-4eb3-add4-91693015a382}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{134585a7-f021-48b9-825d-8c3842ca7b51}" />
 	<object class="PannerEffect" id="{32ceffa9-930b-4a72-ae29-50522240a5eb}">
 		<relationship name="modulators">
@@ -601,6 +617,25 @@
 		</property>
 		<property name="value">
 			<value>-40</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{5bff0c99-ade1-4916-b4c6-7552b938d1b7}">
+		<property name="position">
+			<value>0.29999999999999999</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<property name="curveShape">
+			<value>0.109711491</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{76d2c603-c5be-4eb3-add4-91693015a382}">
+		<property name="position">
+			<value>0.65000000000000002</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
 		</property>
 	</object>
 	<object class="RandomizerModulator" id="{91dbed17-fad8-42db-8811-19c8e40c8422}">

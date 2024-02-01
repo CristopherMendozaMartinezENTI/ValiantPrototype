@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="ParameterPreset" id="{b02c34aa-d07a-4f0e-a698-417c443bb057}">
+	<object class="ParameterPreset" id="{35a15fcc-e0c8-49d1-a5a3-02d1da567205}">
 		<property name="name">
-			<value>SpeedValue</value>
+			<value>Height</value>
 		</property>
 		<relationship name="folder">
 			<destination>{cb53874c-12ac-47c6-9f32-8e8ad9ac5b9b}</destination>
 		</relationship>
 		<relationship name="parameter">
-			<destination>{d9ab3175-4458-48c5-b6cd-f0df419e02ba}</destination>
+			<destination>{e1776a17-5dd3-45a6-b2a7-ea723adedd65}</destination>
 		</relationship>
 	</object>
-	<object class="GameParameter" id="{d9ab3175-4458-48c5-b6cd-f0df419e02ba}">
+	<object class="GameParameter" id="{e1776a17-5dd3-45a6-b2a7-ea723adedd65}">
 		<property name="isGlobal">
 			<value>true</value>
 		</property>
