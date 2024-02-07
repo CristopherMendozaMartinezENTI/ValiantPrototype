@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{a635d334-6819-4779-826a-1287304b3333}">
+		<property name="assetPath">
+			<value>OwlS_07.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.37165625</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{28d7ca8b-3f0b-4bb2-989b-ca470065c65b}</destination>
+		</relationship>
+	</object>
+</objects>
