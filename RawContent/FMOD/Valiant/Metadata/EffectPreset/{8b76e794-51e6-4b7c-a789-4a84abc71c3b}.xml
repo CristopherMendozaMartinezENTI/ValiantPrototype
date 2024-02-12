@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EffectPreset" id="{8b76e794-51e6-4b7c-a789-4a84abc71c3b}">
+		<property name="name">
+			<value>Lowpass</value>
+		</property>
+		<relationship name="folder">
+			<destination>{a4a15931-e62e-4e70-b0c4-a3356833eccf}</destination>
+		</relationship>
+		<relationship name="effect">
+			<destination>{b7ad57e4-b657-4c1a-a275-e2e9674249ee}</destination>
+		</relationship>
+	</object>
+	<object class="MultibandEqEffect" id="{b7ad57e4-b657-4c1a-a275-e2e9674249ee}">
+		<property name="qualityA">
+			<value>0.56048274</value>
+		</property>
+		<relationship name="automators">
+			<destination>{e7bbd024-3706-424e-9e06-cc212d0cf0d3}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{e7bbd024-3706-424e-9e06-cc212d0cf0d3}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>frequencyA</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{b11d3fa0-06d3-4d38-9037-4a44d7f8b6b6}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationCurve" id="{b11d3fa0-06d3-4d38-9037-4a44d7f8b6b6}">
+		<relationship name="parameter">
+			<destination>{a99fc027-4ad2-43b3-bf76-0fc10d0a26cf}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{59846635-0cc6-45c9-ab51-1e28deb32515}</destination>
+			<destination>{e9a15e54-4f96-4305-bd69-8716981e8334}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationPoint" id="{59846635-0cc6-45c9-ab51-1e28deb32515}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>21999.9883</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{e9a15e54-4f96-4305-bd69-8716981e8334}">
+		<property name="position">
+			<value>1</value>
+		</property>
+		<property name="value">
+			<value>659.999695</value>
+		</property>
+	</object>
+</objects>
