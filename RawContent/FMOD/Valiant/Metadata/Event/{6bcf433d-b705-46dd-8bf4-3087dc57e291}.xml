@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{6bcf433d-b705-46dd-8bf4-3087dc57e291}">
 		<property name="name">
-			<value>DialogueWoodT</value>
+			<value>DialogueWood_T</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -56,7 +56,7 @@
 			<destination>{90a356c9-42d6-4cf6-bfe1-c2869c4106f9}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{52421f15-1232-422a-8130-9b8ff8316d98}</destination>
+			<destination>{16295f5a-098e-43a3-a9d1-078a3102563c}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{5a3c5d46-99a1-4050-bf78-c4b763fa504b}" />
