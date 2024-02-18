@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{627bd7c2-f14c-4749-8388-d72cf23a9ab0}">
+		<property name="assetPath">
+			<value>285934-Flatwoods-Pinecastle-Nature-Forest-Foliage-Wind-Loop-01.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>23.481000000000002</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{28d7ca8b-3f0b-4bb2-989b-ca470065c65b}</destination>
+		</relationship>
+	</object>
+</objects>
