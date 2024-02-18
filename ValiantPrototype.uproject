@@ -75,6 +75,14 @@
 		{
 			"Name": "FMODStudio",
 			"Enabled": true
+		},
+		{
+			"Name": "PMDialogue",
+			"Enabled": true
+		},
+		{
+			"Name": "CascadeToNiagaraConverter",
+			"Enabled": true
 		}
 	]
 }
