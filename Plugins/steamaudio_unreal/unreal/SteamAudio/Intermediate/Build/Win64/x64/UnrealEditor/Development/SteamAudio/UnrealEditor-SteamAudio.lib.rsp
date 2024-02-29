@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-SteamAudio.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"F:\Work\UnrealEngineProjects\ValiantPrototype\Intermediate\Build\Win64\x64\ValiantPrototypeEditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp20.InclOrderUnreal5_0.h.obj"
+"F:\Work\UnrealEngineProjects\ValiantPrototype\Plugins\steamaudio_unreal\unreal\SteamAudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\SteamAudio\Module.SteamAudio.cpp.obj"
+"F:\Work\UnrealEngineProjects\ValiantPrototype\Plugins\steamaudio_unreal\unreal\SteamAudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\SteamAudio\Default.rc2.res"
+/OUT:"F:\Work\UnrealEngineProjects\ValiantPrototype\Plugins\steamaudio_unreal\unreal\SteamAudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\SteamAudio\UnrealEditor-SteamAudio.lib"

@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-SteamAudioFMODStudio.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"F:\Work\UnrealEngineProjects\ValiantPrototype\Intermediate\Build\Win64\x64\ValiantPrototypeEditor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h.obj"
+"F:\Work\UnrealEngineProjects\ValiantPrototype\Plugins\steamaudio_unreal\unreal\SteamAudioFMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\SteamAudioFMODStudio\Module.SteamAudioFMODStudio.cpp.obj"
+"F:\Work\UnrealEngineProjects\ValiantPrototype\Plugins\steamaudio_unreal\unreal\SteamAudioFMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\SteamAudioFMODStudio\Default.rc2.res"
+/OUT:"F:\Work\UnrealEngineProjects\ValiantPrototype\Plugins\steamaudio_unreal\unreal\SteamAudioFMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\SteamAudioFMODStudio\UnrealEditor-SteamAudioFMODStudio.lib"
