@@ -112,6 +112,7 @@
 	<object class="MixerBusEffectChain" id="{c3fc61a0-cba9-422f-9c09-fdeb847b3cc0}">
 		<relationship name="effects">
 			<destination>{cad3b746-6491-491f-b933-1b8cece5f1f2}</destination>
+			<destination>{a5cc080a-f8f8-4806-9474-2b8e2f09fe47}</destination>
 			<destination>{60a6ea05-929e-4e97-97c5-995af3fe314b}</destination>
 		</relationship>
 	</object>
@@ -129,6 +130,11 @@
 	</object>
 	<object class="MixerBusFader" id="{7ddb193f-f0e0-4356-9851-669954f757c2}" />
 	<object class="MixerBusFader" id="{cad3b746-6491-491f-b933-1b8cece5f1f2}" />
+	<object class="PluginEffect" id="{a5cc080a-f8f8-4806-9474-2b8e2f09fe47}">
+		<relationship name="plugin">
+			<destination>{727fe8ca-4ca0-42f6-aea6-df82d0a0a8f1}</destination>
+		</relationship>
+	</object>
 	<object class="PluginEffect" id="{60a6ea05-929e-4e97-97c5-995af3fe314b}">
 		<relationship name="plugin">
 			<destination>{1504214d-6fa4-4091-9691-2d467124eb36}</destination>
@@ -163,6 +169,14 @@
 	<object class="SingleSound" id="{e603d9a5-ddbe-45ca-85cd-02c28ec1d362}">
 		<relationship name="audioFile">
 			<destination>{5a510cb0-8925-432b-b87c-4cd68ed9ff99}</destination>
+		</relationship>
+	</object>
+	<object class="Plugin" id="{727fe8ca-4ca0-42f6-aea6-df82d0a0a8f1}">
+		<property name="identifier">
+			<value>Steam Audio Reverb</value>
+		</property>
+		<relationship name="pluginParameters">
+			<destination>{762e8f0c-0fe2-401d-adff-f1cf14d6e866}</destination>
 		</relationship>
 	</object>
 	<object class="Plugin" id="{1504214d-6fa4-4091-9691-2d467124eb36}">
@@ -205,6 +219,14 @@
 			<destination>{19235773-a9f2-492a-b34f-737d5307afeb}</destination>
 			<destination>{f7ded440-5794-4329-9ecf-494c22db5ad2}</destination>
 		</relationship>
+	</object>
+	<object class="BoolPluginParameter" id="{762e8f0c-0fe2-401d-adff-f1cf14d6e866}">
+		<property name="name">
+			<value>Binaural</value>
+		</property>
+		<property name="value">
+			<value>false</value>
+		</property>
 	</object>
 	<object class="DataPluginParameter" id="{f67b8ec9-a82c-4016-8d51-0bd47359324f}">
 		<property name="name">
