@@ -159,11 +159,7 @@
 	</object>
 	<object class="MixerBusPanner" id="{a1eb9bb0-2d62-45c1-bf42-d3f531790b0c}" />
 	<object class="MixerBusFader" id="{7e5d66a2-cfbb-4d79-92be-29229606723a}" />
-	<object class="SpatialiserEffect" id="{cacee678-5bbe-4c68-8147-28b68ae8e8b5}">
-		<property name="distanceRolloffType">
-			<value>2</value>
-		</property>
-	</object>
+	<object class="SpatialiserEffect" id="{cacee678-5bbe-4c68-8147-28b68ae8e8b5}" />
 	<object class="SFXReverbEffect" id="{85499a06-15bd-4081-9e0f-7bf16cdd28f4}">
 		<property name="decayTime">
 			<value>500</value>
